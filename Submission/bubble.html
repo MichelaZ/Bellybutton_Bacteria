@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Belly Button Biodiversity - Home</title>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- custom CSS-->
+    <link href="static/css/style.css" rel="stylesheet">
+
+</head>
+
+<body style="background-image: linear-gradient(#f8edeb, white);">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-light jumbo-bg fixed-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+                <div style="float:left"></div>
+                <div style="float:right"><h3>Belly Button Biodiversity Dashboard</h3><i>Select an ID No. then use the interactive charts below to explore the dataset</i> | Test Subject ID No. <select id="selDataset" onchange="optionChanged(this.value)"></select></div>
+                <div style="clear:both"></div>
+
+          </div>
+          <ul class="nav pill-nav">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Bar Chart</a></li>
+            <li role="presentation"><a href="#">Bubble Chart</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container2">
+        <div class="row">
+        <div class="col-lg-2 ">               
+          <div class well>
+          <div class="panel">
+              <div class="panel-heading">
+                  <h3 class="panel-title ">Demographic Info</h3>
+              </div>
+              <div id="sample-metadata" class="panel-body"></div>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+          </div>
+          </div>
+        </div>
+
+
+            <div class="col-lg-10">
+                <div id="bubble"></div>
+                <p style="text-align:center"><i>The above chart shows the prevelence of all the bacteria present.</i></p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+
+            </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="static\js\BellyButton_bubble_chart.js"></script>
+</body>
+
+</html>

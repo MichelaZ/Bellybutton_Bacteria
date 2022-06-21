@@ -1,0 +1,87 @@
+* {
+    font-family: 'Garamond';
+}
+#grad {
+    background-image: linear-gradient(#ffb4a2, white);
+  }
+.panel-body {
+    color:#b5838d;
+    background-color: #faf9f9;
+    border: 1px solid #fcd5ce;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 3px 20px #fcd5ce;
+    padding: 5%;
+ 
+  }
+  
+  .panel-heading {
+    background-color: #fcd5ce;
+    border: 1px solid #fcd5ce;
+    color:#b5838d;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px 3px 20px #fcd5ce;
+    padding: 5%;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+  }
+
+.jumbo-bg {
+    background: url("../images/Bacteria.png") no-repeat center;
+    background-size: cover;
+    border-radius: 0px 0px 25px 25px;
+    border: 1px dotted rgb(181,131,141);
+    box-shadow: 0px 10px 100px rgba(181,131,141,0.5)
+    
+}
+img {
+
+    border-radius:  15px;
+    opacity: 60%;
+    
+}
+.container {
+    padding-top: 50px;
+ }
+
+ .container2{
+    margin-left: 50px;
+    margin-top: 225px;
+    margin-bottom: 0px;
+
+    height: max-content;
+ }
+
+.demo-text {
+    font-size: 14px;
+}
+.card-header {
+    font-size: 32px;
+    font-weight: bold;
+}
+#selDataset {
+    font-size: 14px;
+}
+
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  
+  /* Change the color of links on mouse-over */
+  .pill-nav a:hover {
+    background-color: rgb(181,131,141);
+    color: #fcd5ce;
+  }
+  
+  /* Add a color to the active/current link */
+  .pill-nav a.active {
+    background-color: #fcd5ce;
+    color: white;
+  }
