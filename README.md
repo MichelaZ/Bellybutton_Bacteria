@@ -1,25 +1,28 @@
 # Bellybutton_Bacteria
 
 ## Purpose
-The purpose of this project was to create a dashboard where volunteers in a study on bellybutton bacteria could view their results anonymously. The dashboard includes metadata about the subject, a bar chart of the top ten bacteria in their sample, a gauge(I used a modified pie chart, because I preferred the look) showing their wash frequency, and a bubble chart with all the bacteria cultures. {View my website.]( https://michelaz.github.io/Bellybutton_Bacteria/Submission/index.html)
-![Bellybutton Bacteria Website]()
+The purpose of this project was to create a dashboard where volunteers in a study on bellybutton bacteria could view their results anonymously. The dashboard includes metadata about the subject, a bar chart of the top ten bacteria in their sample, a gauge(I used a modified pie chart, because I preferred the look) showing their wash frequency, and a bubble chart with all the bacteria cultures. 
+
+[View my website.]( https://michelaz.github.io/Bellybutton_Bacteria/Submission/index.html)
+
+![Bellybotton Website](https://github.com/MichelaZ/Bellybutton_Bacteria/blob/main/Resources/WholeSite.png)
 
 ## UX/UI Analysis:
 I changed up the layout some. I added a picture and a little text blurb. 
 
-![Meta Analysis & header info]()
+![Meta Analysis & header info](https://github.com/MichelaZ/Bellybutton_Bacteria/blob/main/Resources/meta.png)
 
 I got rid of the jumbotron and opted for a navigation bar. I added some cool CSS formatting and a background image to it. 
 
-![Nav]()
+![Nav](https://github.com/MichelaZ/Bellybutton_Bacteria/blob/main/Resources/Nav.png)
 
 The colors in the plate staining image inspired the palette for the rest of the site, but maybe I should have picked something else to make it feel more scientific. It was really important to me to have a navigation that scrolled with the page. I don’t like to have to scroll back to the top of the page to navigate between pages or make selections. I added my drop down selection and header to the navigation menu as well as buttons to pages where you can view either the bar or bubble graph separately.
  
-![bar]()
+![bar](https://github.com/MichelaZ/Bellybutton_Bacteria/blob/main/Resources/bar.png)
 
 I know having the site viewable in mobile is important, because that is what most users use the internet on so I tried to make the site more responsive, but found that even if I did the plotly plots just didn’t look great. If I could figure that out I would take the time to make the navigation bar more responsive, but I was investing to much time. The buttons work, but the titles and drop down disappear.
  
-![bubble]()
+![bubble](https://github.com/MichelaZ/Bellybutton_Bacteria/blob/main/Resources/bubble.png)
 
 One last improvement would be to have the website save your selection in the dropdown when navigating through the different pages.
 
